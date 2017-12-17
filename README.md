@@ -1,4 +1,4 @@
-#MATLAB for Machine Learning
+# MATLAB for Machine Learning
 This is the code repository for [MATLAB for Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/matlab-machine-learning?utm_source=github&utm_medium=repository&utm_campaign=9781788398435), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 MATLAB is the language of choice for many researchers and mathematics experts for machine learning. This book will help you build a foundation in machine learning using MATLAB for beginners.
@@ -34,6 +34,3 @@ In this book, machine learning algorithms are implemented in the MATLAB environm
 * [MATLAB Graphics and Data Visualization Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/matlab-graphics-and-data-visualization-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781849693165)
 
 * [Rapid BeagleBoard Prototyping with MATLAB and Simulink](https://www.packtpub.com/hardware-and-creative/rapid-beagleboard-prototyping-matlab-and-simulink?utm_source=github&utm_medium=repository&utm_campaign=9781849696043)
-
-###Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
