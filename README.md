@@ -1,32 +1,25 @@
 # MATLAB for Machine Learning
 This is the code repository for [MATLAB for Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/matlab-machine-learning?utm_source=github&utm_medium=repository&utm_campaign=9781788398435), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
-MATLAB is the language of choice for many researchers and mathematics experts for machine learning. This book will help you build a foundation in machine learning using MATLAB for beginners.
+Neural networks are one of the most fascinating machine learning models for solving complex computational problems efficiently. Neural networks are used to solve wide range of problems in different areas of AI and machine learning.
 
-You’ll start by getting your system ready with t he MATLAB environment for machine learning and you’ll see how to easily interact with the Matlab workspace. We’ll then move on to data cleansing, mining and analyzing various data types in machine learning and you’ll see how to display data values on a plot. Next, you’ll get to know about the different types of regression techniques and how to apply them to your data using the MATLAB functions. You’ll also explore classification techniques such as K-nearest neighbor analysis and Naive Bayes algorithm, and understand decision tree and rules learners.
+This book explains the niche aspects of neural networking and provides you with foundation to get started with advanced topics. The book begins with neural network design using the neural net package, then you’ll build a solid foundation knowledge of how a neural network learns from data, and the principles behind it. This book covers various types of neural network including recurrent neural networks and convoluted neural networks. You will not only learn how to train neural networks, but will also explore generalization of these networks. Later we will delve into combining different neural network models and work with the real-world use cases.
 
-After this, you’ll dive into unsupervised learning and find groups of data with clustering methods such as k-means method and dendrogram. You’ll understand the basic concepts of neural networks and perform data fitting, pattern recognition, and clustering analysis. Finally, you’ll explore feature selection and extraction techniques for dimensionality reduction for performance improvement.
-
-At the end of the book, you will learn to put it all together into real-world cases covering major machine learning algorithms and be comfortable in performing machine learning with MATLAB.
-##Instructions and Navigation
+By the end of this book, you will learn to implement neural network models in your applications with the help of practical examples in the book.
+## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
 
 
 The code will look like the following:
 ```
-PC1 = 0.8852* Area + 0.3958   * Perimeter + 0.0043 * Compactness +
-  0.1286 * LengthK + 0.1110 * WidthK - 0.1195 * AsymCoef + 0.1290 *
-  LengthKG
-
-Any command-line input or output is written as follows:
-
->>10+90
-ans =
-   100
+mydata=read.csv('Squares.csv',sep=",",header=TRUE)
+mydata
+attach(mydata)
+names(mydata)
 ```
 
-In this book, machine learning algorithms are implemented in the MATLAB environment. So, to reproduce the many examples in this book, you need a new version of MATLAB (R2017a recommended) and the following toolboxes: statistics and machine learning toolbox, neural network toolbox, and fuzzy logic toolbox.
+This book is focused on neural networks in an R environment. We have used R version 3.4.1 to build various applications and the open source and enterprise-ready professional software for R, RStudio version 1.0.153. We focus on how to utilize various R libraries in the best possible way to build real-world applications. In that spirit, we have tried to keep all the code as friendly and readable as possible. We feel that this will enable our readers to easily understand the code and readily use it in different scenarios.
 
 ##Related Products
 * [Visual Media Processing Using MATLAB Beginner's Guide](https://www.packtpub.com/hardware-and-creative/visual-media-processing-using-matlab-beginners-guide?utm_source=github&utm_medium=repository&utm_campaign=9781849697200)
