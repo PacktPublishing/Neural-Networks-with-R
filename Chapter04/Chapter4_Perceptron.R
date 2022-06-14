@@ -82,8 +82,8 @@ p = perceptron(x,y)
 #Plot the linear separation
 plot(x,cex=0.2)
 
-points(subset(x,Y==1),col="black",pch="+",cex=2)
-points(subset(x,Y==-1),col="red",pch="-",cex=2)
+points(subset(x,y==1),col="black",pch="+",cex=2)
+points(subset(x,y==-1),col="red",pch="-",cex=2)
 
 intercept = - p$b / p$w[[2]]
 slope = - p$w[[1]] /p$ w[[2]]
